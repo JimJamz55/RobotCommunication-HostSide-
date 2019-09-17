@@ -1,0 +1,11 @@
+Probe a particular i2c interface (in this case i2c-4)
+sudo i2cdetect -F 4
+
+Send a signal out of the i2c (only thing that works so far)
+sudo i2cdetect -y 1
+
+Detect i2c interfaces
+sudo i2cdetect -l
+
+gpio pin out
+https://wiki.odroid.com/odroid-xu4/hardware/expansion_connectors
